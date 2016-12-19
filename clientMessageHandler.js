@@ -1,9 +1,5 @@
 'use strict';
 
-var IrcClient = require('../kiwiirc/node_modules/irc-framework/').Client;
-
-
-
 module.exports.handleLine = handleClientLine;
 
 function handleClientLine(session, ws, channel, message) {
