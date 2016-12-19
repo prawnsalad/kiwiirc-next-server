@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "irc-framework": "^2.5.1",
+    "irc-message": "^3.0.2",
+    "lodash": "^4.17.2",
+    "sockjs": "^0.3.18"
+  },
+  "author": "Darren Whitlen <darren@kiwiirc.com>",
+  "license": "ISC"
+}
